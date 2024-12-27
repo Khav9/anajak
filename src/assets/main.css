@@ -1,0 +1,22 @@
+@import './base.css';
+
+#site {
+    padding: 0 15%;
+}
+
+@media (max-width: 990.5px) and (min-width: 576px) {
+    #site {
+      padding: 0 10%;
+    }
+}
+
+@media (max-width: 576px) {
+    #site {
+      padding: 0 5%;
+    }
+}
+
+/* Footer should always be at the bottom */
+footer {
+    margin-top: auto; /* Pushes footer to the bottom of the page */
+}
