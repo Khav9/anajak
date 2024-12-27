@@ -1,6 +1,6 @@
 <template>
   <div id="site" class="mynav">
-    <nav class="navbar navbar-expand-lg pt-3">
+    <nav class="navbar navbar-expand-lg p-3">
       <div class="container-fluid p-0">
         <!-- Left: Logo -->
         <router-link to="/" class="navbar-brand m-0 p-0">
