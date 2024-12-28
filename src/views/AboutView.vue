@@ -1,5 +1,5 @@
 <template>
-  <div id="site" class="row mt-5">
+  <div id="site" class="row pt-4 m-0">
     <!-- Logo Section -->
     <div class="col-12 col-md-4 text-center">
       <img
@@ -64,6 +64,9 @@
 @media (max-width: 768px) {
   #site {
     flex-direction: column;
+  }
+  .about-us{
+    margin: 0 auto 15px;
   }
   .responsive-logo {
     margin: 0 auto 15px;

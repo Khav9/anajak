@@ -129,16 +129,18 @@
     align-items: center;
   }
 
-  .map-contact,
+  /* .map-contact,
   .form-contact {
     min-width: 100%;
-  }
+  } */
 
   .map-contact {
+    min-width: 90%;
     margin-bottom: 120px;
   }
 
   .form-contact {
+    min-width: 90%;
     margin-left: 10px;
   }
 }

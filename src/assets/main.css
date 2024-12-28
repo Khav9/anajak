@@ -16,7 +16,32 @@
     }
 }
 
+
 /* Footer should always be at the bottom */
 footer {
-    margin-top: auto; /* Pushes footer to the bottom of the page */
+  margin-top: auto; /* Pushes footer to the bottom of the page */
+}
+
+/* Go to Top Button Styling */
+.go-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 30px;
+height: 35px;
+background-color: #007bff;
+color: white;
+border: none;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+opacity: 0;
+visibility: hidden;
+transition: all 0.3s ease-in-out;
+}
+.go-top i:hover{
+color: orange;
 }
