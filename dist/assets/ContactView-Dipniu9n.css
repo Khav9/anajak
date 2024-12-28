@@ -1,0 +1,1 @@
+.form-contact{background-color:#e58f5a}.contact-us{display:flex;flex-wrap:wrap}.map-contact{flex:2;min-width:60%}.form-contact{flex:1;min-width:35%}@media (max-width: 868px){iframe{min-width:100%}.contact-us{flex-direction:column;align-items:center}.map-contact,.form-contact{min-width:100%}.map-contact{margin-bottom:120px}.form-contact{margin-left:10px}}
