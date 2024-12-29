@@ -25,7 +25,7 @@
         <br />
         <br />
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3909.046823010827!2d104.927386!3d11.548499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM13CsDMyJzU0LjYiTiAxMDTCsDU1JzM4LjYiRQ!5e0!3m2!1sen!2skh!4v1735317443168!5m2!1sen!2skh"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3909.046823010827!2d104.927386!3d11.548499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDMyJzU0LjYiTiAxMDTCsDU1JzM4LjYiRQ!5e0!3m2!1skm!2skh!4v1735451914195!5m2!1skm!2skh"
           width="100%"
           height="72%"
           style="border: 0"
@@ -91,7 +91,7 @@
           </div>
 
           <!-- Submit Button -->
-          <button type="submit" class="btn btn-outline-primary w-100">
+          <button type="submit" class="btn btn-primary w-100">
             Submit Now
           </button>
         </form>

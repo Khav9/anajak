@@ -104,4 +104,21 @@
   color: white;
   font-size: 20px;
 }
+
+/* Adjust size for mobile screens */
+@media (max-width: 767px) {
+  .icon-right {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon-button i {
+    font-size: 16px;
+  }
+}
 </style>

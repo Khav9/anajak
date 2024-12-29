@@ -1,7 +1,7 @@
 <template>
   <div id="site" class="row pt-4 m-0 page">
     <!-- Logo Section -->
-    <div class="col-12 col-md-4 text-center">
+    <div class="col-12 col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000">
       <img
         src="../components/logo/Logo_Anajak-Group-small.png"
         class="responsive-logo"

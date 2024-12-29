@@ -7,7 +7,7 @@
 
       <!-- Real Estate Project -->
       <div class="timeline-item d-flex align-items-center text-center">
-        <div class="col-md-6 timeline-text">
+        <div class="col-md-6 timeline-text" data-aos="fade-left" data-aos-duration="1000">
           <div class="timeline-point-on-line" style="top: 10px"></div>
           <h5 class="text-center py-3 m-0">Real Estate Project</h5>
           <img
@@ -20,7 +20,7 @@
 
       <!-- Agriculture -->
       <div class="timeline-item d-flex align-items-center text-center">
-        <div class="col-md-6 ms-auto timeline-text">
+        <div class="col-md-6 ms-auto timeline-text" data-aos="fade-right" data-aos-duration="1000">
           <div class="timeline-point-on-line" style="top: 10px"></div>
           <h5 class="text-center p-3 m-0">Agriculture</h5>
           <img
@@ -33,7 +33,7 @@
 
       <!-- Tourism and Services -->
       <div class="timeline-item d-flex align-items-center text-center">
-        <div class="col-md-6 timeline-text">
+        <div class="col-md-6 timeline-text" data-aos="fade-left" data-aos-duration="1000">
           <div class="timeline-point-on-line" style="top: 10px"></div>
           <h5 class="text-center p-3 m-0">Tourism and Services</h5>
           <img
@@ -46,7 +46,7 @@
 
       <!-- Special Economic Zones -->
       <div class="timeline-item d-flex align-items-center text-center">
-        <div class="col-md-6 ms-auto timeline-text">
+        <div class="col-md-6 ms-auto timeline-text" data-aos="fade-right" data-aos-duration="1000">
           <div class="timeline-point-on-line" style="top: 10px"></div>
           <h5 class="text-center p-3 m-0">Special Economic Zones</h5>
           <img
