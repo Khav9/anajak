@@ -3,7 +3,11 @@
 #site {
     padding: 0 15%;
 }
-
+.page{
+  background-color: whitesmoke;
+  min-height: 80vh;
+  height: auto;
+}
 @media (max-width: 990.5px) and (min-width: 576px) {
     #site {
       padding: 0 10%;
@@ -19,10 +23,9 @@
 
 /* Footer should always be at the bottom */
 footer {
-  margin-top: auto; /* Pushes footer to the bottom of the page */
+  margin-top: auto;
 }
 
-/* Go to Top Button Styling */
 .go-top {
 position: fixed;
 bottom: 20px;

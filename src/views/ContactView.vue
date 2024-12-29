@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="row pt-4 m-0" id="site">
+  <div class="row pt-4 m-0 page" id="site">
     <div class="row p-0 my-4 contact-us">
       <!-- Address and Map Section -->
       <div class="col-7 map-contact">

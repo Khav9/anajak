@@ -1,5 +1,5 @@
 <template>
-  <div id="site" class="row pt-4 m-0">
+  <div id="site" class="row pt-4 m-0 page">
     <!-- Logo Section -->
     <div class="col-12 col-md-4 text-center">
       <img

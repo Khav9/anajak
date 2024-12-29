@@ -1,17 +1,17 @@
 <template>
-  <div class="container">
+  <div class="row pt-4 m-0 portfolio pb-4 page" id="site">
     <h2 class="text-center mb-5">Our Portfolio</h2>
     <div class="timeline position-relative">
       <!-- Vertical Line -->
       <div class="timeline-vertical-line"></div>
 
       <!-- Real Estate Project -->
-      <div class="timeline-item d-flex align-items-center mb-5">
+      <div class="timeline-item d-flex align-items-center text-center">
         <div class="col-md-6 timeline-text">
           <div class="timeline-point-on-line" style="top: 10px"></div>
-          <h4 class="text-center mb-3 p-3">Real Estate Project</h4>
+          <h5 class="text-center py-3 m-0">Real Estate Project</h5>
           <img
-            src="../components/logo/Logo_Anajak-Group-small.png"
+            src="../components/images/real-estate-project.jpg"
             alt="Real Estate Project"
             class="img-fluid rounded"
           />
@@ -19,12 +19,12 @@
       </div>
 
       <!-- Agriculture -->
-      <div class="timeline-item d-flex align-items-center mb-5">
+      <div class="timeline-item d-flex align-items-center text-center">
         <div class="col-md-6 ms-auto timeline-text">
           <div class="timeline-point-on-line" style="top: 10px"></div>
-          <h4 class="text-center mb-3 p-3">Agriculture</h4>
+          <h5 class="text-center p-3 m-0">Agriculture</h5>
           <img
-            src="../components/logo/Logo_Anajak-Group-small.png"
+            src="../components/images/agriculture-v2.jpg"
             alt="Agriculture"
             class="img-fluid rounded"
           />
@@ -32,12 +32,12 @@
       </div>
 
       <!-- Tourism and Services -->
-      <div class="timeline-item d-flex align-items-center mb-5">
+      <div class="timeline-item d-flex align-items-center text-center">
         <div class="col-md-6 timeline-text">
           <div class="timeline-point-on-line" style="top: 10px"></div>
-          <h4 class="text-center mb-3 p-3">Tourism and Services</h4>
+          <h5 class="text-center p-3 m-0">Tourism and Services</h5>
           <img
-            src="../components/logo/Logo_Anajak-Group-small.png"
+            src="../components/images/tourism-and-services.jpg"
             alt="Tourism and Services"
             class="img-fluid rounded"
           />
@@ -45,12 +45,12 @@
       </div>
 
       <!-- Special Economic Zones -->
-      <div class="timeline-item d-flex align-items-center mb-5">
+      <div class="timeline-item d-flex align-items-center text-center">
         <div class="col-md-6 ms-auto timeline-text">
           <div class="timeline-point-on-line" style="top: 10px"></div>
-          <h4 class="text-center mb-3 p-3">Special Economic Zones</h4>
+          <h5 class="text-center p-3 m-0">Special Economic Zones</h5>
           <img
-            src="../components/logo/Logo_Anajak-Group-small.png"
+            src="../components/images/economic.jpg"
             alt="Special Economic Zones"
             class="img-fluid rounded"
           />
@@ -67,9 +67,6 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  padding: 2rem;
-}
 
 .timeline {
   position: relative;
@@ -106,40 +103,42 @@ export default {
 
 .col-md-6 {
   flex: 0 0 48%;
+  margin-top: -0.6rem;
 }
 
-h4 {
+h5 {
   font-weight: bold;
-  margin-top: 1rem;
-  background-color: aliceblue;
+  background-color: #E1E6E0;
 }
 
 img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 0.5rem;
+  border: 15px solid white;
 }
 
 @media (max-width: 768px) {
   .timeline-item {
-    flex-direction: row-reverse;
+    flex-direction: column;
+    text-align: center; 
   }
 
   .timeline-vertical-line {
-    left: 10%;
+    left: 5%;
   }
 
-  .col-md-6 {
-    width: 100%;
-  }
-
-  .timeline-text {
-    order: 1;
+  .timeline-point-on-line {
+    left: 2.5%;
   }
 
   img {
-    width: 100%;
-    margin-top: 1rem;
+    width: 90%;
+  }
+
+  h5 {
+    font-size: 1rem;
   }
 }
+
 </style>

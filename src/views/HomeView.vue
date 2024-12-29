@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="row pt-4 m-0 home" id="site">
+  <div class="row pt-4 m-0 home page" id="site">
     <div class="detail">
       <div class="text-center">
         <span class="text-warning"
