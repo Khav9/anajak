@@ -37,19 +37,10 @@
   background-position: center;
   min-height: 80vh;
   height: auto;
-  animation: zoomEffect 10s infinite alternate;
 }
 
 .texts {
   color: rgb(169, 187, 204);
 }
 
-@keyframes zoomEffect {
-  0% {
-    background-size: 100%;
-  }
-  100% {
-    background-size: 110%;
-  }
-}
 </style>
