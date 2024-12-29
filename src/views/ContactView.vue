@@ -91,7 +91,7 @@
           </div>
 
           <!-- Submit Button -->
-          <button type="submit" class="btn btn-primary w-100">
+          <button type="submit" class="btn btn-light w-100">
             Submit Now
           </button>
         </form>
@@ -102,7 +102,33 @@
 
 <style>
 .form-contact {
-  background-color: #e58f5a;
+  background-color: #f4a261; /* Warm, approachable orange */
+  color: #ffffff;
+}
+
+.form-contact .form-label {
+  color: #ffffff;
+}
+
+.form-contact .form-control {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #f4a261;
+}
+
+.form-contact .form-control:focus {
+  border-color: #e76f51; /* Slightly darker orange for focus */
+  box-shadow: 0 0 0 0.2rem rgba(231, 111, 81, 0.25);
+}
+
+.btn-light {
+  background-color: #264653; /* Deep blue-green for contrast */
+  color: #ffffff;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #2a9d8f; /* Bright blue-green on hover */
 }
 
 .contact-us {
@@ -128,11 +154,6 @@
     flex-direction: column;
     align-items: center;
   }
-
-  /* .map-contact,
-  .form-contact {
-    min-width: 100%;
-  } */
 
   .map-contact {
     min-width: 90%;
